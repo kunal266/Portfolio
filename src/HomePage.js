@@ -1,10 +1,10 @@
 import React from "react";
 import "./styles.css";
-// import projects from "./projects";
+import Projects from "./Projects";
 export default function HomePage() {
   return (
     <div >
-      <div className="bg-gray-900 h-screen pt-20 ">
+      <div className="bg-gray-900  pt-20 ">
         <div className="justify-center flex pt-3">
           <img
             src="https://pbs.twimg.com/media/Ei7jKyVUcAA3CFZ?format=jpg&name=small"
@@ -18,6 +18,45 @@ export default function HomePage() {
         <div >
           <div className="text-yellow-500 text-center text-4xl">Profile</div>
           <div className="text-yellow-200 mx-auto w-3/4">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nihil
+            unde eligendi ipsum, qui vero id ab fugiat amet consectetur animi
+            nulla asperiores iusto soluta neque veritatis ad explicabo nisi!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nihil
+            unde eligendi ipsum, qui vero id ab fugiat amet consectetur animi
+            nulla asperiores iusto soluta neque veritatis ad explicabo nisi!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nihil
+            unde eligendi ipsum, qui vero id ab fugiat amet consectetur animi
+            nulla asperiores iusto soluta neque veritatis ad explicabo nisi!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nihil
+            unde eligendi ipsum, qui vero id ab fugiat amet consectetur animi
+            nulla asperiores iusto soluta neque veritatis ad explicabo nisi!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nihil
+            unde eligendi ipsum, qui vero id ab fugiat amet consectetur animi
+            nulla asperiores iusto soluta neque veritatis ad explicabo nisi!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nihil
+            unde eligendi ipsum, qui vero id ab fugiat amet consectetur animi
+            nulla asperiores iusto soluta neque veritatis ad explicabo nisi!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nihil
+            unde eligendi ipsum, qui vero id ab fugiat amet consectetur animi
+            nulla asperiores iusto soluta neque veritatis ad explicabo nisi!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nihil
+            unde eligendi ipsum, qui vero id ab fugiat amet consectetur animi
+            nulla asperiores iusto soluta neque veritatis ad explicabo nisi!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nihil
+            unde eligendi ipsum, qui vero id ab fugiat amet consectetur animi
+            nulla asperiores iusto soluta neque veritatis ad explicabo nisi!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nihil
+            unde eligendi ipsum, qui vero id ab fugiat amet consectetur animi
+            nulla asperiores iusto soluta neque veritatis ad explicabo nisi!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nihil
+            unde eligendi ipsum, qui vero id ab fugiat amet consectetur animi
+            nulla asperiores iusto soluta neque veritatis ad explicabo nisi!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nihil
+            unde eligendi ipsum, qui vero id ab fugiat amet consectetur animi
+            nulla asperiores iusto soluta neque veritatis ad explicabo nisi!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nihil
+            unde eligendi ipsum, qui vero id ab fugiat amet consectetur animi
+            nulla asperiores iusto soluta neque veritatis ad explicabo nisi!
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nihil
             unde eligendi ipsum, qui vero id ab fugiat amet consectetur animi
             nulla asperiores iusto soluta neque veritatis ad explicabo nisi!
@@ -90,7 +129,6 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      
     </div>
   );
 }
