@@ -17,7 +17,7 @@ export default function HomePage() {
         </div>
         <div >
           <div className="text-yellow-500 text-center text-4xl">Profile</div>
-          <div className="text-yellow-200">
+          <div className="text-yellow-200 mx-auto w-3/4">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nihil
             unde eligendi ipsum, qui vero id ab fugiat amet consectetur animi
             nulla asperiores iusto soluta neque veritatis ad explicabo nisi!
