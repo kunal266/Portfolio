@@ -2,7 +2,8 @@ module.exports = {
   purge: [],
   theme: {
     screens: {
-      xsm: { max: "550px" },
+      xsm: { max: "562px" },
+      xsmm:{min:"562px"},
       sm: "640px",
       md: "768px",
       lg: "1024px",

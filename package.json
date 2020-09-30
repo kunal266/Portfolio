@@ -9,9 +9,11 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "@trendmicro/react-dropdown": "^1.4.0",
+    "marked": "^1.2.0",
     "postcss-cli": "^7.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-markdown": "^4.3.1",
     "react-scripts": "^3.4.3",
     "react-select": "^3.1.0",
     "tailwindcss": "^1.4.6",
@@ -23,7 +25,8 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-css":"tailwindcss build src/tailwind.css -o src/styles.css"
   },
   "eslintConfig": {
     "extends": "react-app"

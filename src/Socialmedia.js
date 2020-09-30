@@ -1,6 +1,5 @@
 import React from "react";
 export default function SocialMedia(props){
-  console.log(props.value)
   let str = "flex justify-center xsmm:" + props.value
     return(
         <div className= {str}>
