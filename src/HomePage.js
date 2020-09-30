@@ -20,7 +20,7 @@ export default function HomePage() {
         </div>
         <Socialmedia value = "hidden"/>
         <div >
-          <div className="text-yellow-500 text-center text-4xl">Profile</div>
+          <div className="text-yellow-500 text-center text-4xl mt-6">Profile</div>
           <div className="text-yellow-200 text-center mx-auto xsmm:w-3/4 ">
             <Profile/>
             </div>

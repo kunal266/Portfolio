@@ -4,8 +4,10 @@ module.exports = {
     screens: {
       xsm: { max: "562px" },
       xsmm:{min:"562px"},
+      tiny:{max:"400px"},
       sm: "640px",
       md: "768px",
+      mdlg:{max:"804px"},
       lg: "1024px",
       xl: "1280px",
     },

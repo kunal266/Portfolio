@@ -3,6 +3,7 @@ import React, { Fragment } from "react";
 import NavBar from "./NavBar";
 import HomePage from "./HomePage";
 import Projects from "./Projects";
+import Donation from "./donation";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <HomePage></HomePage>
       {/* <HomePage></HomePage> */}
       <Projects></Projects>
+      <Donation/>
     </Fragment>
   );
 }

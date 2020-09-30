@@ -7,7 +7,19 @@ function NavBar() {
     window.scrollTo(0, 0);
   }
   function scrollProfile() {
-    window.scrollTo(0, 275);
+    window.scrollTo(0, 267);
+  }
+  function scrollProject(){
+    window.scrollTo(0,1380);
+  }
+  function scrollLargeProject(){
+    window.scrollTo(0,1040);
+  }
+  function scrollDonate(){
+    window.scrollTo(0,2120)
+  }
+  function scrollLargeDonate(){
+    window.scrollTo(0,1780)
   }
   const data = [
     {
@@ -21,6 +33,10 @@ function NavBar() {
     {
       value: 3,
       label: "Projects"
+    },
+    {
+      value:4,
+      label:"Donate"
     }
   ];
  
@@ -36,6 +52,12 @@ function NavBar() {
     if (e.label === "Profile"){
       scrollProfile()
     }
+    if (e.label === "Projects"){
+      scrollProject()
+    }
+    if (e.label === "Donate"){
+      scrollDonate()
+    }
   }
   return (
     
@@ -44,7 +66,7 @@ function NavBar() {
         <img
           src="https://pbs.twimg.com/media/Ei7jKyVUcAA3CFZ?format=jpg&name=small"
           alt="K"
-          className="rounded-full h-16 w-16 flex items-center justify-center"
+          className="rounded-full h-16 w-16 m-1 flex items-center justify-center"
         ></img>
         <div className="m-1 mt-3 p-2 float-right  text-lg font-semibold">
           Kunal Makwana
@@ -72,8 +94,17 @@ function NavBar() {
           >
             Profile
           </button>
-          <button className="bg-blue-500 xsm:hidden hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-900 rounded mr-3">
-            Projects
+          <button
+            className="bg-blue-500 xsm:hidden hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-900 rounded mr-3"
+            onClick={scrollLargeProject}
+          >
+            Profile
+          </button>
+          <button
+            className="bg-blue-500 xsm:hidden hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-900 rounded mr-3"
+            onClick={scrollLargeDonate}
+          >
+            Donate
           </button>
         </div>
       </div>

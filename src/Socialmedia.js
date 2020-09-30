@@ -3,7 +3,7 @@ export default function SocialMedia(props){
   let str = "flex justify-center xsmm:" + props.value
     return(
         <div className= {str}>
-            <div className="pr-24">
+            <div className="pr-24 tiny:pr-20">
               <div className="flex justify-left pb-2 pt-3">
                 <img
                   src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
