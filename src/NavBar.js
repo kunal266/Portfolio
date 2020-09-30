@@ -51,7 +51,7 @@ function NavBar() {
         </div>
       </div>
       <div className="p-3">
-        <div class="dropdown relative xsm:block hidden">
+        <div className="dropdown relative xsm:block hidden">
         <Select className = "w-24"
         placeholder="Menu"
         value={selectedOption} // set selected value
