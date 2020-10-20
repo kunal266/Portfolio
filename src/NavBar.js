@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import Select from 'react-select';
-
+import dp from "./assets/Kunal_dp.jpeg";
 import "./styles.css";
 function NavBar() {
   function scrollTop() {
@@ -64,8 +64,8 @@ function NavBar() {
     <div className=" flex justify-between bg-gray-500 rounded w-full fixed">
       <div className="flex justify-between bg-gray-500 rounded-lg">
         <img
-          src="https://pbs.twimg.com/media/Ei7jKyVUcAA3CFZ?format=jpg&name=small"
-          alt="K"
+          src={dp}
+          alt="Kunal's DP"
           className="rounded-full h-16 w-16 m-1 flex items-center justify-center"
         ></img>
         <div className="m-1 mt-3 p-2 float-right  text-lg font-semibold">

@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.css";
 import Socialmedia from './Socialmedia';
 import Profile from "./profile";
+import dp from "./assets/Kunal_dp.jpeg";
 
 export default function HomePage() {
   return (
@@ -10,8 +11,8 @@ export default function HomePage() {
       <div className="bg-gray-900  pt-20 pb-10 ">
         <div className="justify-center flex pt-3">
           <img
-            src="https://pbs.twimg.com/media/Ei7jKyVUcAA3CFZ?format=jpg&name=small"
-            alt="K"
+            src={dp}
+            alt="Kunal's DP"
             className="rounded-full h-56 w-56 p-2 shadow-2xl"
           ></img>
         </div>
